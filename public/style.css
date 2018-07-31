@@ -1,0 +1,346 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Sintony', sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    color: #5c6369;
+    background:#fff;
+    min-height:100vh;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin:0;
+}
+p{
+    margin:0;
+}
+
+ul,li{
+    display: block;
+    padding:0;
+    margin:0;
+}
+
+header{
+    background:#fff;
+    padding:24px 0;
+}
+.header-logo{
+    display:block;
+}
+
+.menu{
+    list-style: none;
+    justify-content: space-between;
+    margin-top:10px;
+}
+.menu_item{
+    font-size:14px;
+    font-weight: 700;
+}
+.menu_item a{
+    color: #2c465a;
+
+    text-transform:uppercase;
+}
+.item_active a{
+    color:blue;
+
+}
+.menu_item a:hover{
+    text-decoration: none;
+    color:red;
+}
+.cta{
+    justify-content: center;
+    width:200px;
+    background:#fea100;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius:3px;
+    padding:13px 0;
+    margin-top:-5px;
+    border:none;
+    cursor:pointer;
+
+}
+.cta:hover{
+    color:#fff;
+    text-decoration: none;
+}
+.book_icon{
+    background:url(../images/order-png.png) no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    width:21px;
+    height: 17px;
+    display:block;
+    margin-right: 13px;
+}
+
+
+/*
+**********************OFFER**************************
+ */
+
+.offer{
+    background:url(../images/offer_bg.jpg) no-repeat center top;
+
+
+}
+.title{
+    color:#fff;
+    padding:210px 0;
+}
+.offer_title{
+    font-size:56px;
+
+
+}
+.offer_text{
+
+    font-size:40px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+
+}
+.offer_text span{
+    color:#fea100;
+}
+
+/*
+**********************SECTION CALL******************************
+ */
+
+.call{
+    background:#edf1f3;
+}
+.phone{
+    padding:35px 0;
+    justify-content: center;
+}
+
+.phone_text img{
+    margin-right:20px;
+}
+.phone_text p{
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#14141d;
+    line-height: 20px;
+}
+.phone_text span{
+    color:#fea100;
+    font-size:16px;
+}
+.phone_contact{
+    margin-left:46px;
+    margin-top:4px;
+    font-family: 'Playfair Display', serif;
+    font-size:32px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #14141d;
+    text-transform: uppercase;
+
+}
+
+/*
+****************END SECTION CALL **********************
+ */
+
+
+/*
+******************ABOUT********************************
+ */
+
+.about{
+    background:#fff;
+    padding:120px 0;
+
+}
+
+.history_title{
+    font-size:35px;
+    color: #14141d;
+    margin-bottom:35px;
+}
+
+.history_text{
+    line-height: 26px;
+    font-size:14px;
+    margin-bottom:47px;
+}
+.history_btn{
+    width:150px;
+    padding:15px 35px;
+    margin-top:48px;
+
+}
+.down{
+    margin-top:46px;
+}
+.food-images_item{
+    margin-bottom:10px;
+}
+.food_text{
+    font-size:14px;
+}
+
+
+
+/*
+******************END ABOUT********************************
+ */
+
+/*
+******************SPECIAL********************************
+ */
+
+.special{
+    padding-top:80px;
+    background:url(../images/special-bg.jpg) no-repeat center top;
+
+}
+
+.special_title{
+    font-size:35px;
+    color:#fff;
+    text-align: center;
+}
+
+.food{
+    text-align: center;
+    box-shadow: 0 20px 90px rgba(0,0,0,0.15);
+    margin-bottom: 130px;
+    margin-top: 20px;
+
+}
+
+.food_img{
+    margin-bottom:45px;
+}
+
+.food_title{
+   font-size: 26px;
+    margin-bottom:10px;
+    color: #14141d;
+
+}
+
+.food_text{
+    padding:0 60px;
+    font-size:14px;
+    color: #5c6369;
+    margin-bottom:16px;
+}
+
+.food_details{
+    border-top: 1px solid #e1e1e1;
+    margin: 0 45px;
+    text-align: left;
+    color: #14141d;
+    padding: 19px 0;
+}
+
+.food_del{
+    text-transform: uppercase;
+    font-size: 13px;
+    width: 78px;
+    border-right: 1px solid #e1e1e1;
+    margin-right: 18px;
+    font-weight: 700;
+}
+.food_del span{
+    color: #fe4c8d;
+}
+
+.food_phone{
+    font-size: 26px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.food_price{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    color: #fea100;
+}
+
+/*
+******************END SPECIAL********************************
+ */
+
+/*
+******************FOOTER********************************
+ */
+footer {
+    background: #373844;
+    color: #93989e;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 72px 106px;
+}
+
+.socials {
+
+}
+
+.socials__item a {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: block;
+}
+
+.socials__item_fb a {
+    background: #3b5998 url('../images/fb.png') no-repeat center center;
+}
+
+.socials__item_tw a {
+    background: #55acee url('../images/tw.png') no-repeat center center;
+    margin: 0 7px;
+}
+
+.socials__item_g a {
+    background: #dd4b39 url('../images/g.png') no-repeat center center;
+}
+
+.line {
+    background: #52535e;
+    height: 1px;
+    margin-top: 7px;
+    margin-top: 50px;
+}
+
+.credits {
+    margin-top: 43px;
+    text-align: center;
+}
+
+
+/*
+************************Page Contact *******************
+ */
+
+.contact {
+    background:#edf1f3;
+    padding:130px 0;
+}
+.contact_form{
+    width:350px;
+}
+
+
+
+
+

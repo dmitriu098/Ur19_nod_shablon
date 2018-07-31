@@ -1,0 +1,31 @@
+
+<%- include('layout');%>
+<%- include('header');%>
+
+	<section class="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<form class="contact_form m-auto" action="/contact" method="post">
+						<div class="form-group">
+							<label for="exampleInputEmail1">Ваш Email</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" name="userEmail" aria-describedby="emailHelp" placeholder="Введите емеил">
+
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1">Введите ваш пароль</label>
+							<input type="password" class="form-control" name="userPassword" id="exampleInputPassword1" placeholder="Пароль">
+						</div>
+						<div class="form-group">
+							<label for="textarea">Ваш комментарий</label>
+							<input type="text" class="form-control" name="userText" id="textarea" placeholder="Ваш комментарий">
+						</div>
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+<%- include('footer');%>
